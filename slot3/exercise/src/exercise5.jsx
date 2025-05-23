@@ -12,7 +12,7 @@ function EmployeeDropdown() {
   return (
     <select>
       {employees.map((employee, index) => (
-        <option key={employee.id ? employee.id : index} value={employee.name}>
+        <option key={employee.id ? employee.id : index} value={employee.name} selected={index === 1}>
           {employee.name}
         </option>
       ))}

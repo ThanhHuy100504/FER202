@@ -20,12 +20,4 @@ function EmployeeList() {
   );
 }
 
-function App() {
-  return (
-    <div className="App">
-      <EmployeeList />
-    </div>
-  );
-}
-
-export default App;
+export default EmployeeList;
