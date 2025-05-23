@@ -11,7 +11,7 @@ function EmployeeSearch() {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  // Lọc danh sách nhân viên theo tên (Hoa hay thường không phân biệt)
+  // Lọc danh sách nhân viên theo tên (Hoa hay thường không cần phân biệt)
   const filteredEmployees = employees.filter(emp =>
     emp.name.toLowerCase().includes(searchTerm.toLowerCase())
   );

@@ -28,7 +28,7 @@ function EmployeeTable() {
         ))}
       </tbody>
     </table>
-  );
+      );
 }
 
 export default EmployeeTable;
