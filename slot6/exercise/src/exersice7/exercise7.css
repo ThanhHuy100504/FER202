@@ -1,0 +1,63 @@
+/* App.css */
+.container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.card-row {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-box {
+  width: 280px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 8px solid;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  text-align: center;
+  padding: 12px;
+  font-weight: bold;
+}
+
+.border-blue {
+  border-color: #0d6efd;
+}
+
+.border-yellow {
+  border-color: #ffc107;
+}
+
+.border-red {
+  border-color: #dc3545;
+}
+
+.bg-blue {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.bg-yellow {
+  background-color: #ffc107;
+  color: black;
+}
+
+.bg-red {
+  background-color: #dc3545;
+  color: white;
+}
