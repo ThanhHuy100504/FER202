@@ -12,7 +12,7 @@ function EmployeeList() {
   return (
     <ul>
       {employees.map((employee, index) => (
-        <li key={employee.id ? employee.id : index}>
+        <li key={employee.id ? employee.id : index} >
           {employee.name} - {employee.department}
         </li>
       ))}

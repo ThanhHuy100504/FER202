@@ -5,11 +5,11 @@ function Employee() {
   const { name, age, department } = employee;
 
   return (
-    <div>
-      <h1>{name}</h1>
+    <>
+      <h1 style={{ color: "blue", textAlign: "center" }}>{name}</h1>
       <p>Age: {age}</p>
       <p>Department: {department}</p>
-    </div>
+    </>
   );
 }
 
