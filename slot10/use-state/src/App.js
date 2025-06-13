@@ -12,6 +12,24 @@ function App() {
   return (
     <>
     <div style={{ padding: '40px', textAlign: 'center', fontFamily: 'Arial' }} >
+   <Counter />
+   <div>
+        <input 
+          type="text" 
+          value={name} 
+          onChange={(e) => {setName(e.target.value);
+            console.log(e.target.value)
+          }} 
+        />
+        <p>My name is {name}</p>
+        <input 
+          type="number" 
+          value={age} 
+          onChange={(e) => setAge(parseInt(e.target.value, 10))} 
+        />
+        <p>My age is {age}</p>
+      </div>
+      <ProductList />
       <SingleProductSelector />
       </div>
   </>
