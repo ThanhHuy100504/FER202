@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Login from './components/LoginForm';
 import LaptopList from './components/LaptopList';
 import LaptopDetail from './components/LaptopDetail';
-
+import NotFound from './components/NotFound'; 
 function App() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
@@ -28,6 +28,7 @@ function App() {
           />
           <Route path="/laptops" element={<LaptopList />} />
           <Route path="/laptops/:id" element={<LaptopDetail />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
     </Router>
