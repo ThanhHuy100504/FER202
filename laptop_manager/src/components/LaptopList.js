@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Container, Row, Col, Card, Button, Form, Carousel } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
+import NavbarComponent from './Navbar'
 
 const LaptopList = () => {
   const [allLaptops, setAllLaptops] = useState([]);
@@ -29,6 +30,7 @@ const LaptopList = () => {
 
   return (
     <main>
+      <NavbarComponent />
       <Container className="my-5">
         <h1 className="text-center mb-4">Laptop List</h1>
         {/* ✅ Carousel đẹp */}
